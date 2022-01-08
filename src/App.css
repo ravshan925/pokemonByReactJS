@@ -1,0 +1,57 @@
+body {
+  background: #dbdbda;
+  padding: 0;
+  margin: 0;
+}
+.themTxt {
+  text-align: center;
+  background: #2399fd;
+  margin: 0;
+  height: 60px;
+  color: #fff;
+  font-size: 40px;
+  
+}
+
+/*Search Are*/
+.searchArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.searchArea > input {
+  width: 25%;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  padding: 5px 20px;
+}
+input:focus {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+  outline: none;
+}
+.searchArea > button {
+  background-color: rgb(46, 51, 58);
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.resultCard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.resultCard > .card {
+  width: 350px;
+  height: 480px;
+  background: #fff;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 50%;
+}
